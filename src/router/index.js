@@ -11,7 +11,7 @@ const router = createRouter({
     {
       path: "/child",
       name: "child",
-      component: () => import("../components/ParentComponent.vue"),
+      component: ParentComponent,
     },
   ],
 });
